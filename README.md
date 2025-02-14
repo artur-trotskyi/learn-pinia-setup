@@ -33,7 +33,7 @@ docker compose exec vue bash
 Inside the vue container, install project dependencies:
 
 ```
-npm run install
+npm install
 ```
 
 Then, start the development server:
