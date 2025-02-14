@@ -28,9 +28,16 @@ Launch Bash in the `vue` container:
 docker compose exec vue bash
 ```
 
-### 4. Run Project
+### 4. Install Dependencies and Run Project
 
-Yom must run server in the 'vue' container
+Inside the vue container, install project dependencies:
+
+```
+npm run install
+```
+
+Then, start the development server:
+
 ```
 npm run dev
 ```
